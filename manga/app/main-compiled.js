@@ -1,3 +1,4 @@
+"use client"
 import React from "react";
 import ReactDOM from "react-dom/client";
 import { Home } from "./page"; // Assuming Home component is in './page'
