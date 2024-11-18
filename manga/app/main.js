@@ -5,4 +5,5 @@ import Home from "./page";
 
 const rootElement = document.getElementById("root");
 const root = createRoot(rootElement);
+console.log("main");
 root.render(<Home />);
