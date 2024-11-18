@@ -1,4 +1,4 @@
-// import Image from "next/image";
+// page.tsx
 
 import TextWithPopover from "./Components/Light_Chapter_1/lightChapter1";
 
