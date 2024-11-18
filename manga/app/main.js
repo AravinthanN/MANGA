@@ -1,9 +1,9 @@
-// main.tsx or main.js
 import React from "react";
-import { createRoot } from "react-dom/client";
-import Home from "./page";
+import ReactDOM from "react-dom/client";
+import { Home } from "./page"; // Assuming Home component is in './page'
 
-const rootElement = document.getElementById("root");
-const root = createRoot(rootElement);
-console.log("main");
+// Get the root element
+const root = ReactDOM.createRoot(document.getElementById("root"));
+
+// Render your Home component
 root.render(<Home />);
