@@ -23,13 +23,20 @@ const PopUp = ({ content }) => {
         <div className="w-full p-5 font-serif text-base leading-relaxed text-gray-700 rounded-lg bg-[#fffaf1]">
           {/* Map through each line */}
           {lines.map((line, index) => {
-            const isHtml = /<\/?[a-z][\s\S]*>/i.test(line); // Check if line is HTML
+            const isHtml = /<\/?[a-z][\s\S]*>/i.test(line); // Check if the line is HTML
+            const isContainImage = line.startsWith("#"); // Check if the line starts with "#"
 
+            // Extract the content after "#" if it's an image reference
+            const removedHash = isContainImage ? line.slice(1) : null;
+            console.log(removedHash);
             return isHtml ? (
-              // Render as HTML if line is HTML
+              // Render as HTML if the line is HTML
               <span key={index} dangerouslySetInnerHTML={{ __html: line }} />
+            ) : isContainImage && removedHash ? (
+              // Render as an image if the line starts with "#" and contains a valid image path
+              <img key={index} src={`${removedHash}`} alt="Dynamic Image" />
             ) : (
-              // Render as plain text if line is not HTML
+              // Render as plain text if it's not HTML or an image
               <p key={index}>{line}</p>
             );
           })}

@@ -1,7 +1,7 @@
 const texts = [
-  `INFORMATION on Planet ILO - it is a unique star where life thrives. Unlike Earths sunrise and nightfall, Ilo experiences Risen and Fall.
+  `INFORMATION on Planet ILO - it is a unique star where life thrives. Unlike Earth's sunrise and nightfall, Ilo experiences Risen and Fall.
   During Risen—the equivalent of night—the planet does not just grow dark. It glows with vibrant, aurora-like radiation. Every living being enlarges, except the Iloians (similar to humans on Earth). The wind smells like strawberry ice cream, and you can even see it with the naked eye. Imagine massive trees with colorful, glowing leaves, winds humming like melodies, and butterflies the size of humans. Its like a dreamlike paradise.
-  Fall on Ilo is like Earths day but far more mesmerizing. Everywhere you look, trees, flowers, and vibrant birds fill the landscape. In the dense forests, extraordinary creatures thrive. Picture a countryside brimming with farms, gardens, and forests under bright, warm weather, balanced perfectly by a cool, refreshing breeze. Its a harmonious, natural paradise.
+  Fall on Ilo is like Earth's day but far more mesmerizing. Everywhere you look, trees, flowers, and vibrant birds fill the landscape. In the dense forests, extraordinary creatures thrive. Picture a countryside brimming with farms, gardens, and forests under bright, warm weather, balanced perfectly by a cool, refreshing breeze. Its a harmonious, natural paradise.
   `,
   `Chapter 1: Light
   <div className="block">—---------------:-----------------------------------------::</div>
@@ -13,7 +13,9 @@ const texts = [
   `Yet, in this silent, empty space, the laughter of a little girl could be heard. She illuminated the area with her bright smile, so bright it could outshine the sun. A beautiful black and blue butterfly sat on her head, gently moving its wings and adding to her joyful look. She was happily playing with her small sheep.`,
   `Twenty feet behind her, a boy(that boy in chain in young) , about fifteen years old, stood in a meadow filled with flowers and butterflies. He watched his sister laugh and play while trying to cut the last log from a pile of fifty trees. Even though he was tired, he felt joy seeing her so happy. 
   But his smile slowly faded as he noticed other kids playing together while his sister was alone.
+  
   `,
+  `#/app/Images/choIntro.jpg`,
   `Far away from little girl. `,
   `people worked on their farms. A woman passed by, walking happily.`,
   `One of the farm women (P-1) called out:`,
@@ -71,6 +73,14 @@ const texts = [
   `Bywalker: “wait wait!...Tomorrow, by this time, wait here. I’ll tell you then.”`,
   `Boy: “Yes!” he shouted, filled with joy.`,
   `He flew off like a happy mosquito (not literally flying).`,
+  `As he ran, a bywalker woman walked along the path. Nearby, three women stood watching the
+bywalker woman talking to a boy.`,
+  `“Why did you talk to him?” one of the women asked.`,
+  `“Why? Shouldn&#39;t I talk to him?” the saree woman replied.`,
+  `“He’s that devil’s kid,” another woman said.`,
+  `“He?…” The woman glanced at the boy, who was running happily. “Doesn’t look like it to me,”
+she replied.`,
+  `… … . … … ..`,
   `As he approached a pile of trees, he notices sunlight glinted off a car emerging from the forest, followed by a convoy of vehicles
   He face changed, 
   `,
