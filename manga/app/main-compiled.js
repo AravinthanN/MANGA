@@ -4,6 +4,6 @@ import { Home } from "./page"; // Assuming Home component is in './page'
 
 // Get the root element
 const root = ReactDOM.createRoot(document.getElementById("root"));
-
+console.log("cumpli");
 // Render your Home component
 root.render(/*#__PURE__*/ React.createElement(Home, null));
